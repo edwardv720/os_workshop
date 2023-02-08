@@ -1,11 +1,6 @@
 
 # Downloading software
-All the installers for the tools below can be found in this Git repository. 
-1.	Download the files as a .zip file (Look for the “<> Code” icon) OR
-2.	clone it if you’re familiar with git
-
- ![image](https://user-images.githubusercontent.com/35808176/217656618-92adbeb9-64b4-4e57-9cd3-13116804cb57.png)
-
+All the installers for the tools we'll use can be found in the links below.
 
 ## Required:
 
