@@ -4,7 +4,7 @@ All the installers for the tools we'll use can be found in the links below.
 
 ## Required:
 
-**installers are .exe**
+**installers are .exe file**
 
 Git (latest version) - https://git-scm.com/download/win 
   
@@ -21,9 +21,11 @@ Some text editor e.g.,
 
 Visual Studio Code - https://code.visualstudio.com/docs/?dv=win
 
+OR
+
 Notepad++ - https://notepad-plus-plus.org/downloads/
 
-Notepad
+
 
 # Steps for installing:
 ### Git
