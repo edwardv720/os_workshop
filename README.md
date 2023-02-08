@@ -4,7 +4,7 @@ All the installers for the tools we'll use can be found in the links below.
 
 ## Required:
 
-**Reminder, these installers are available in this repo already, the links are provided for reference**
+**installers are .exe**
 
 Git (latest version) - https://git-scm.com/download/win 
   
