@@ -1,0 +1,202 @@
+
+OS:Version,
+  {233ed941-4c83-4b28-b198-7afc5663ab17}, !- Handle
+  3.2.1;                                  !- Version Identifier
+
+OS:Site,
+  {6409a6c2-7e92-45d6-9bc9-3ef75d8d9ce2}, !- Handle
+  Site 1,                                 !- Name
+  ,                                       !- Latitude {deg}
+  ,                                       !- Longitude {deg}
+  ,                                       !- Time Zone {hr}
+  ,                                       !- Elevation {m}
+  ;                                       !- Terrain
+
+OS:YearDescription,
+  {6fc9aaf7-06f8-439b-a77b-71dd75ffa3d4}; !- Handle
+
+OS:ClimateZones,
+  {cf88a2b9-d781-435f-8c61-1bb96fac26bb}, !- Handle
+  ASHRAE,                                 !- Climate Zone Institution Name 1
+  ANSI/ASHRAE Standard 169,               !- Climate Zone Document Name 1
+  2006,                                   !- Climate Zone Document Year 1
+  ,                                       !- Climate Zone Value 1
+  CEC,                                    !- Climate Zone Institution Name 2
+  California Climate Zone Descriptions,   !- Climate Zone Document Name 2
+  1995,                                   !- Climate Zone Document Year 2
+  ;                                       !- Climate Zone Value 2
+
+OS:Building,
+  {3a08f4c7-e367-456e-b2e2-1a6c562f1938}, !- Handle
+  Building 1,                             !- Name
+  ,                                       !- Building Sector Type
+  ,                                       !- North Axis {deg}
+  ,                                       !- Nominal Floor to Floor Height {m}
+  ,                                       !- Space Type Name
+  ,                                       !- Default Construction Set Name
+  ;                                       !- Default Schedule Set Name
+
+OS:Facility,
+  {55552d0c-846b-4413-b7ce-8ec82227d70d}; !- Handle
+
+OS:SimulationControl,
+  {86053e20-a1df-4800-85a7-8ec68a141794}; !- Handle
+
+OS:Sizing:Parameters,
+  {c5d2ffa2-2097-4f41-89e4-dabad9c78221}, !- Handle
+  1.25,                                   !- Heating Sizing Factor
+  1.15;                                   !- Cooling Sizing Factor
+
+OS:Timestep,
+  {3f36518e-f201-4920-9f77-9a904ce6d53b}, !- Handle
+  6;                                      !- Number of Timesteps per Hour
+
+OS:ShadowCalculation,
+  {73f89b5c-1c3b-4017-9c5b-0818b1af15e4}, !- Handle
+  PolygonClipping,                        !- Shading Calculation Method
+  ,                                       !- Shading Calculation Update Frequency Method
+  20,                                     !- Shading Calculation Update Frequency
+  15000,                                  !- Maximum Figures in Shadow Overlap Calculations
+  ,                                       !- Polygon Clipping Algorithm
+  512,                                    !- Pixel Counting Resolution
+  ,                                       !- Sky Diffuse Modeling Algorithm
+  No,                                     !- Output External Shading Calculation Results
+  No,                                     !- Disable Self-Shading Within Shading Zone Groups
+  No;                                     !- Disable Self-Shading From Shading Zone Groups to Other Zones
+
+OS:HeatBalanceAlgorithm,
+  {aeec70ae-f2d6-47c0-bb07-0ca5461e9b2d}, !- Handle
+  ConductionTransferFunction,             !- Algorithm
+  200;                                    !- Surface Temperature Upper Limit {C}
+
+OS:RunPeriod,
+  {6912544e-15ca-4e6f-a3e7-b983f38f72e9}, !- Handle
+  Run Period 1,                           !- Name
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
+  ,                                       !- Use Weather File Holidays and Special Days
+  ,                                       !- Use Weather File Daylight Saving Period
+  ,                                       !- Apply Weekend Holiday Rule
+  ,                                       !- Use Weather File Rain Indicators
+  ,                                       !- Use Weather File Snow Indicators
+  ;                                       !- Number of Times Runperiod to be Repeated
+
+OS:LifeCycleCost:Parameters,
+  {11f663c3-8087-48f8-8fc7-09524561171c}, !- Handle
+  ,                                       !- Analysis Type
+  ,                                       !- Discounting Convention
+  ,                                       !- Inflation Approach
+  ,                                       !- Real Discount Rate
+  ,                                       !- Nominal Discount Rate
+  ,                                       !- Inflation
+  ,                                       !- Base Date Month
+  ,                                       !- Base Date Year
+  ,                                       !- Service Date Month
+  ,                                       !- Service Date Year
+  ;                                       !- Length of Study Period in Years
+
+OS:Schedule:Ruleset,
+  {3cb16902-3e46-4109-94d4-fc219aa47804}, !- Handle
+  dhw_load_profile,                       !- Name
+  {eab58c5b-a530-4eaa-8aae-4eb66d094583}, !- Schedule Type Limits Name
+  {319439c9-2ae8-42e8-bc7d-c4c8c1f46766}; !- Default Day Schedule Name
+
+OS:ScheduleTypeLimits,
+  {eab58c5b-a530-4eaa-8aae-4eb66d094583}, !- Handle
+  Fractional,                             !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+OS:Schedule:Day,
+  {319439c9-2ae8-42e8-bc7d-c4c8c1f46766}, !- Handle
+  Schedule Day 33,                        !- Name
+  {eab58c5b-a530-4eaa-8aae-4eb66d094583}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  6,                                      !- Hour 1
+  50,                                     !- Minute 1
+  0,                                      !- Value Until Time 1
+  6,                                      !- Hour 2
+  55,                                     !- Minute 2
+  0.58,                                   !- Value Until Time 2
+  7,                                      !- Hour 3
+  0,                                      !- Minute 3
+  0.72,                                   !- Value Until Time 3
+  7,                                      !- Hour 4
+  5,                                      !- Minute 4
+  0.0725,                                 !- Value Until Time 4
+  7,                                      !- Hour 5
+  45,                                     !- Minute 5
+  0,                                      !- Value Until Time 5
+  7,                                      !- Hour 6
+  50,                                     !- Minute 6
+  0.65,                                   !- Value Until Time 6
+  7,                                      !- Hour 7
+  55,                                     !- Minute 7
+  0.74,                                   !- Value Until Time 7
+  8,                                      !- Hour 8
+  0,                                      !- Minute 8
+  0.08,                                   !- Value Until Time 8
+  18,                                     !- Hour 9
+  30,                                     !- Minute 9
+  0,                                      !- Value Until Time 9
+  18,                                     !- Hour 10
+  35,                                     !- Minute 10
+  0.67,                                   !- Value Until Time 10
+  18,                                     !- Hour 11
+  40,                                     !- Minute 11
+  0.74,                                   !- Value Until Time 11
+  18,                                     !- Hour 12
+  45,                                     !- Minute 12
+  0.24,                                   !- Value Until Time 12
+  19,                                     !- Hour 13
+  0,                                      !- Minute 13
+  0,                                      !- Value Until Time 13
+  19,                                     !- Hour 14
+  5,                                      !- Minute 14
+  0.4,                                    !- Value Until Time 14
+  19,                                     !- Hour 15
+  10,                                     !- Minute 15
+  0.09,                                   !- Value Until Time 15
+  19,                                     !- Hour 16
+  30,                                     !- Minute 16
+  0,                                      !- Value Until Time 16
+  19,                                     !- Hour 17
+  35,                                     !- Minute 17
+  0.025,                                  !- Value Until Time 17
+  20,                                     !- Hour 18
+  0,                                      !- Minute 18
+  0,                                      !- Value Until Time 18
+  20,                                     !- Hour 19
+  5,                                      !- Minute 19
+  0.21,                                   !- Value Until Time 19
+  20,                                     !- Hour 20
+  45,                                     !- Minute 20
+  0,                                      !- Value Until Time 20
+  20,                                     !- Hour 21
+  50,                                     !- Minute 21
+  0.21,                                   !- Value Until Time 21
+  21,                                     !- Hour 22
+  0,                                      !- Minute 22
+  0.08,                                   !- Value Until Time 22
+  21,                                     !- Hour 23
+  5,                                      !- Minute 23
+  0,                                      !- Value Until Time 23
+  21,                                     !- Hour 24
+  10,                                     !- Minute 24
+  1,                                      !- Value Until Time 24
+  21,                                     !- Hour 25
+  30,                                     !- Minute 25
+  0,                                      !- Value Until Time 25
+  21,                                     !- Hour 26
+  35,                                     !- Minute 26
+  0.63,                                   !- Value Until Time 26
+  21,                                     !- Hour 27
+  45,                                     !- Minute 27
+  0.73,                                   !- Value Until Time 27
+  24,                                     !- Hour 28
+  0,                                      !- Minute 28
+  0;                                      !- Value Until Time 28
+
