@@ -1,8 +1,11 @@
 
 # Downloading software
-All the installers for the tools we'll use can be found in the links below.
+All the installers for the tools we'll use can be found in the links below. 
+
+On the second day of the workshop, we'll go through how to set-up a local OpenStudio server to do large scale simulations. While OpenStudio works on Mac, we haven't tested the server on a Mac system - **we suggest using a windows machine for this workshop**. 
 
 ## Required:
+**WINDOWS IS STRONGLY RECOMMENDED**
 
 **Note: some links will directly download the .exe; others will require some navigation*
 
