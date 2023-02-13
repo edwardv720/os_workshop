@@ -4,17 +4,17 @@ All the installers for the tools we'll use can be found in the links below.
 
 ## Required:
 
-**installers are .exe file**
+**Note: some links will directly download .exe; others will require some navigation*
 
 Git (latest version) - https://git-scm.com/download/win 
   
-OpenStudio Application v1.2.1 - https://github.com/openstudiocoalition/OpenStudioApplication/releases/tag/v1.2.1 
+OpenStudio Application v1.2.1 - https://github.com/openstudiocoalition/OpenStudioApplication/releases/download/v1.2.1/OpenStudioApplication-1.2.1+29888f9a87-Windows.exe
 
 SketchUp Pro 2021 - https://help.sketchup.com/en/downloading-older-versions 
 
-OpenStudio SketchUp plugin v1.2.1 - https://github.com/openstudiocoalition/openstudio-sketchup-plugin/releases/tag/v1.2.1
+OpenStudio SketchUp plugin v1.2.1 - https://github.com/openstudiocoalition/openstudio-sketchup-plugin/releases/download/v1.2.1/openstudio-sketchup-plugin.rbz
 
-OpenStudio Parametric Analysis Tool - https://github.com/NREL/OpenStudio-PAT/releases/tag/v3.2.1
+OpenStudio Parametric Analysis Tool - https://github.com/NREL/OpenStudio-PAT/releases/download/v3.2.1/ParametricAnalysisTool-3.2.1-Windows.exe
 
 ## Strongly recommended: 
 Some text editor e.g.,
