@@ -4,30 +4,29 @@ All the installers for the tools we'll use can be found in the links below.
 
 ## Required:
 
-**Note: some links will directly download .exe; others will require some navigation*
+**Note: some links will directly download the .exe; others will require some navigation*
 
-Git (latest version) - https://git-scm.com/download/win 
+[Git (latest version)](https://git-scm.com/download/win )
   
-OpenStudio Application v1.2.1 - https://github.com/openstudiocoalition/OpenStudioApplication/releases/download/v1.2.1/OpenStudioApplication-1.2.1+29888f9a87-Windows.exe
+[OpenStudio Application v1.2.1](https://github.com/openstudiocoalition/OpenStudioApplication/releases/download/v1.2.1/OpenStudioApplication-1.2.1+29888f9a87-Windows.exe)
 
-SketchUp Pro 2021 - https://help.sketchup.com/en/downloading-older-versions 
+[SketchUp Pro 2021](https://help.sketchup.com/en/downloading-older-versions )
 
-OpenStudio SketchUp plugin v1.2.1 - https://github.com/openstudiocoalition/openstudio-sketchup-plugin/releases/download/v1.2.1/openstudio-sketchup-plugin.rbz
+[OpenStudio SketchUp plugin v1.2.1](https://github.com/openstudiocoalition/openstudio-sketchup-plugin/releases/download/v1.2.1/openstudio-sketchup-plugin.rbz)
 
-OpenStudio Parametric Analysis Tool - https://github.com/NREL/OpenStudio-PAT/releases/download/v3.2.1/ParametricAnalysisTool-3.2.1-Windows.exe
+[OpenStudio Parametric Analysis Tool v3.2.1](https://github.com/NREL/OpenStudio-PAT/releases/download/v3.2.1/ParametricAnalysisTool-3.2.1-Windows.exe)
 
 ## Strongly recommended: 
 Some text editor e.g.,
 
-Visual Studio Code - https://code.visualstudio.com/docs/?dv=win
+[Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
 
 OR
 
-Notepad++ - https://notepad-plus-plus.org/downloads/
+[Notepad++](https://notepad-plus-plus.org/downloads/)
 
 
-
-# Steps for installing:
+# Steps for installation:
 ### Git
 1.	Use the installer to install git
 
