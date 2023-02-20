@@ -4,8 +4,27 @@ All the installers for the tools we'll use can be found in the links below.
 
 On the second day of the workshop, we'll go through how to set-up a local OpenStudio server to do large scale simulations. While OpenStudio works on Mac, we haven't tested the server on a Mac system - **we suggest using a windows machine for this workshop**. 
 
-## Required:
+## Required for Windows 11:
 **WINDOWS IS STRONGLY RECOMMENDED**
+
+**Note: some links will directly download the .exe; others will require some navigation*
+
+[Git (latest version)](https://git-scm.com/download/win )
+
+[OpenStudio Application (v1.5.0 or latest version)](https://github.com/openstudiocoalition/OpenStudioApplication/releases/tag/v1.5.0)
+
+[SketchUp Pro 2021](https://help.sketchup.com/en/downloading-older-versions )
+
+[OpenStudio SketchUp plugin latest (v1.4.0  or latest version)](https://github.com/openstudiocoalition/openstudio-sketchup-plugin/releases/tag/v1.4.0)
+
+
+[OpenStudio Parametric Analysis Tool v3.2.1](https://github.com/NREL/OpenStudio-PAT/releases/download/v3.2.1/ParametricAnalysisTool-3.2.1-Windows.exe)
+**AND**
+[OpenStudio Parametric Analysis Tool (v3.5.1 or latest version)](https://github.com/openstudiocoalition/OpenStudioApplication/releases/tag/v1.5.0)
+
+## Required for Windows 10:
+**WINDOWS IS STRONGLY RECOMMENDED**
+
 
 **Note: some links will directly download the .exe; others will require some navigation*
 
