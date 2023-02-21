@@ -1,3 +1,6 @@
+# Temporary link to server files
+[link to server repository](https://github.com/edwardv720/openstudio_measures)
+
 
 # Downloading software
 All the installers for the tools we'll use can be found in the links below. 
