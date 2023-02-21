@@ -23,7 +23,7 @@ On the second day of the workshop, we'll go through how to set-up a local OpenSt
 
 [OpenStudio Parametric Analysis Tool v3.2.1](https://github.com/NREL/OpenStudio-PAT/releases/download/v3.2.1/ParametricAnalysisTool-3.2.1-Windows.exe)
 **AND**
-[OpenStudio Parametric Analysis Tool (v3.5.1 or latest version)](https://github.com/openstudiocoalition/OpenStudioApplication/releases/tag/v1.5.0)
+[OpenStudio Parametric Analysis Tool (v3.5.1 or latest version)](https://github.com/NREL/OpenStudio-PAT/releases/tag/v3.5.1)
 
 ## Required for Windows 10:
 **WINDOWS IS STRONGLY RECOMMENDED**
