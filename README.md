@@ -1,5 +1,5 @@
 # Temporary link to server files
-[link to server repository](https://github.com/edwardv720/openstudio_measures)
+To be added
 
 
 # Downloading software
