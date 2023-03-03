@@ -1,7 +1,7 @@
 # OpenStudio Workshop
 This repository contains material that illustrates building energy modelling using OpenStudio.
 
-# Workshop Outline
+# Workshop Outline (start here)
 1. [Software and hardware requirements]
 2. [Introduction to Building Energy Modelling (BEM)]
 3. [SketchUp our building]
