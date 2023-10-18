@@ -1,7 +1,7 @@
 
 OS:Version,
-  {95bb8854-1cb9-4258-9a0a-dd92b3e43077}, !- Handle
-  3.2.1;                                  !- Version Identifier
+  {053c9834-6c2e-44ea-85b1-1592487d263d}, !- Handle
+  3.6.1;                                  !- Version Identifier
 
 OS:Schedule:Constant,
   {50a13eef-9730-46a9-a572-6a32ae2ee9f8}, !- Handle
@@ -7445,15 +7445,13 @@ OS:DefaultSubSurfaceConstructions,
   ,                                       !- Tubular Daylight Dome Construction Name
   ;                                       !- Tubular Daylight Diffuser Construction Name
 
-OS:Material:AirWall,
-  {9c2e9d3e-294f-43b6-a35a-50ee1f5a6da4}, !- Handle
-  Air Wall Material;                      !- Name
-
-OS:Construction,
+OS:Construction:AirBoundary,
   {c2015e14-8a99-41b4-a8b9-ca08a758e5b5}, !- Handle
   Air Wall,                               !- Name
-  {120d2017-31e2-41e7-9253-2e46cf8712b7}, !- Surface Rendering Name
-  {9c2e9d3e-294f-43b6-a35a-50ee1f5a6da4}; !- Layer 1
+  ,                                       !- Air Exchange Method
+  0,                                      !- Simple Mixing Air Changes per Hour {1/hr}
+  ,                                       !- Simple Mixing Schedule Name
+  {120d2017-31e2-41e7-9253-2e46cf8712b7}; !- Surface Rendering Name
 
 OS:Site,
   {67954095-e568-4057-a467-6d726fa7832a}, !- Handle
@@ -7504,7 +7502,7 @@ OS:StandardsInformation:Construction,
 
 OS:StandardsInformation:Material,
   {05225216-2b25-4f29-8135-2765309693d9}, !- Handle
-  {9c2e9d3e-294f-43b6-a35a-50ee1f5a6da4}; !- Material Name
+  ;                                       !- Material Name
 
 OS:WindowMaterial:Blind,
   {57a656b0-06ef-4771-ad1b-2a27d4d72bbc}, !- Handle
