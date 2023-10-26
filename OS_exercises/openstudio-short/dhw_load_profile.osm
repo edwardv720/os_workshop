@@ -1,0 +1,107 @@
+OS:Version,
+  {ec9c8fff-6bee-4876-aea5-2f37082bd5b7}, !- Handle
+  3.6.1;                                  !- Version Identifier
+  
+OS:ScheduleTypeLimits,
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Handle
+  Fractional_dhw,                             !- Name
+  0,                                      !- Lower Limit Value
+  1,                                      !- Upper Limit Value
+  Continuous;                             !- Numeric Type
+
+  OS:Schedule:Ruleset,
+  {ae289199-a383-4274-8323-639233600652}, !- Handle
+  dhw_load_profile,                       !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  {74834dd4-691d-476d-8e50-fbea2e7108b1}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {74834dd4-691d-476d-8e50-fbea2e7108b1}, !- Handle
+  Schedule Day 16,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  6,                                      !- Hour 1
+  50,                                     !- Minute 1
+  0,                                      !- Value Until Time 1
+  6,                                      !- Hour 2
+  55,                                     !- Minute 2
+  0.58,                                   !- Value Until Time 2
+  7,                                      !- Hour 3
+  0,                                      !- Minute 3
+  0.72,                                   !- Value Until Time 3
+  7,                                      !- Hour 4
+  5,                                      !- Minute 4
+  0.0725,                                 !- Value Until Time 4
+  7,                                      !- Hour 5
+  45,                                     !- Minute 5
+  0,                                      !- Value Until Time 5
+  7,                                      !- Hour 6
+  50,                                     !- Minute 6
+  0.65,                                   !- Value Until Time 6
+  7,                                      !- Hour 7
+  55,                                     !- Minute 7
+  0.74,                                   !- Value Until Time 7
+  8,                                      !- Hour 8
+  0,                                      !- Minute 8
+  0.08,                                   !- Value Until Time 8
+  18,                                     !- Hour 9
+  30,                                     !- Minute 9
+  0,                                      !- Value Until Time 9
+  18,                                     !- Hour 10
+  35,                                     !- Minute 10
+  0.67,                                   !- Value Until Time 10
+  18,                                     !- Hour 11
+  40,                                     !- Minute 11
+  0.74,                                   !- Value Until Time 11
+  18,                                     !- Hour 12
+  45,                                     !- Minute 12
+  0.24,                                   !- Value Until Time 12
+  19,                                     !- Hour 13
+  0,                                      !- Minute 13
+  0,                                      !- Value Until Time 13
+  19,                                     !- Hour 14
+  5,                                      !- Minute 14
+  0.4,                                    !- Value Until Time 14
+  19,                                     !- Hour 15
+  10,                                     !- Minute 15
+  0.09,                                   !- Value Until Time 15
+  19,                                     !- Hour 16
+  30,                                     !- Minute 16
+  0,                                      !- Value Until Time 16
+  19,                                     !- Hour 17
+  35,                                     !- Minute 17
+  0.025,                                  !- Value Until Time 17
+  20,                                     !- Hour 18
+  0,                                      !- Minute 18
+  0,                                      !- Value Until Time 18
+  20,                                     !- Hour 19
+  5,                                      !- Minute 19
+  0.21,                                   !- Value Until Time 19
+  20,                                     !- Hour 20
+  45,                                     !- Minute 20
+  0,                                      !- Value Until Time 20
+  20,                                     !- Hour 21
+  50,                                     !- Minute 21
+  0.21,                                   !- Value Until Time 21
+  21,                                     !- Hour 22
+  0,                                      !- Minute 22
+  0.08,                                   !- Value Until Time 22
+  21,                                     !- Hour 23
+  5,                                      !- Minute 23
+  0,                                      !- Value Until Time 23
+  21,                                     !- Hour 24
+  10,                                     !- Minute 24
+  1,                                      !- Value Until Time 24
+  21,                                     !- Hour 25
+  30,                                     !- Minute 25
+  0,                                      !- Value Until Time 25
+  21,                                     !- Hour 26
+  35,                                     !- Minute 26
+  0.63,                                   !- Value Until Time 26
+  21,                                     !- Hour 27
+  45,                                     !- Minute 27
+  0.73,                                   !- Value Until Time 27
+  24,                                     !- Hour 28
+  0,                                      !- Minute 28
+  0;                                      !- Value Until Time 28
+

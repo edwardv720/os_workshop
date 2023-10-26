@@ -1,0 +1,7 @@
+{
+   "created_at" : "20231019T142115Z",
+   "seed_file" : "../5_ccht_fosm.osm",
+   "steps" : [],
+   "updated_at" : "20231025T180016Z",
+   "weather_file" : "CAN_ON_Ottawa-CWEC2020.epw"
+}
