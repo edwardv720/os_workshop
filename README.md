@@ -2,7 +2,7 @@
 This repository contains material that illustrates building energy modelling using OpenStudio.
 
 # Workshop Outline 
-**Note: review the README.md files in each link below for additional info**
+**Note: review the README.md files in each link below for additional Info**
 1. [Software and hardware requirements](https://github.com/edwardv720/os_workshop/blob/main/1.%20Software%20and%20hardware%20requirements.md)
 2. Introduction to Building Energy Modelling [(.ppt slides)](https://github.com/edwardv720/os_workshop/blob/main/An%20introduction%20to%20%20OpenStudio%20%26%20Energyplus.pptx)
 3. [SketchUp our building - exercise](https://github.com/edwardv720/os_workshop/tree/main/OS_exercises/sketchup)

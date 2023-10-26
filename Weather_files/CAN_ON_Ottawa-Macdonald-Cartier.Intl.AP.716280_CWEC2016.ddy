@@ -1,0 +1,185 @@
+ ! The following Location and Design Day data are produced as possible from the indicated data source.
+ ! Wind Speeds follow the indicated design conditions rather than traditional values (6.7 m/s heating, 3.35 m/s cooling)
+ ! No special attempts at re-creating or determining missing data parts (e.g. Wind speed or direction)
+ ! are done.  Therefore, you should look at the data and fill in any incorrect values as you desire.
+ 
+ ! SizingPeriod:DesignDay and other objects are formatted to meet criteria of EnergyPlus V7.1 and later
+ 
+ ! Some users have indicated that they would like the actual day of week from the weather file to be
+ ! used as the start day of week for a RunPeriod even though this is relatively meaningless for
+ ! TMY data files as future months will not use their start days of week (simulations need to show
+ ! continuity in day of week presentation).
+ 
+ ! In an effort to accomodate, the following RunPeriod object is included:
+ ! Note JAN 1, 2011 is a Saturday
+ 
+ RunPeriod,
+ Weather Data,    ! Name
+   1,             ! Begin Month
+   1,             ! Begin Day of Month
+    ,             ! Begin Year
+   12,            ! End Month
+   31,            ! End Day of Month
+    ,             ! End Year
+ Saturday,      ! Day of Week for Start Day
+   No,            ! Use Weather File Holidays and Special Days
+   No,            ! Use Weather File Daylight Saving Period
+  Yes,            ! Apply Weekend Holiday Rule
+  Yes,            ! Use Weather File Rain Indicators
+  Yes;            ! Use Weather File Snow Indicators
+ 
+ Site:Location,
+  Ottawa=Macdonald-Cartier Intl_ON_CAN Design_Conditions,     !- Location Name
+      45.32,     !- Latitude {N+ S-}
+     -75.67,     !- Longitude {W- E+}
+      -5.00,     !- Time Zone Relative to GMT {GMT+/-}
+     114.90;     !- Elevation {m}
+  
+ ! The following Sizing Period objects for Extreme and Typical conditions are calculated
+ ! from the extreme (if any) and typical conditions on the weather source data.
+ ! The actual weeks that will be used will exist on the weather file.
+  
+ SizingPeriod:WeatherFileConditionType,
+   Summer Extreme,
+   SummerExtreme,
+   SummerDesignDay,
+   Yes,                !- Use Weather File Daylight Saving Period
+   Yes;                !- Use Weather File Rain and Snow Indicators
+ SizingPeriod:WeatherFileConditionType,
+   Summer Typical,
+   SummerTypical,
+   Monday,
+   Yes,                !- Use Weather File Daylight Saving Period
+   Yes;                !- Use Weather File Rain and Snow Indicators
+ SizingPeriod:WeatherFileConditionType,
+   Winter Extreme,
+   WinterExtreme,
+   WinterDesignDay,
+   Yes,                !- Use Weather File Daylight Saving Period
+   Yes;                !- Use Weather File Rain and Snow Indicators
+ SizingPeriod:WeatherFileConditionType,
+   Winter Typical,
+   WinterTypical,
+   Monday,
+   Yes,                !- Use Weather File Daylight Saving Period
+   Yes;                !- Use Weather File Rain and Snow Indicators
+ SizingPeriod:WeatherFileConditionType,
+   Autumn Typical,
+   AutumnTypical,
+   Monday,
+   Yes,                !- Use Weather File Daylight Saving Period
+   Yes;                !- Use Weather File Rain and Snow Indicators
+ SizingPeriod:WeatherFileConditionType,
+   Spring Typical,
+   SpringTypical,
+   Monday,
+   Yes,                !- Use Weather File Daylight Saving Period
+   Yes;                !- Use Weather File Rain and Snow Indicators
+ 
+
+
+ ! Site:Precipitation. RoofIrrigation and Schedule:File objects for rainfall
+ ! No rainfall on source file
+ ! Objects provided, but commented out, for user convenience.
+ ! Site:Precipitation,  
+ !   ScheduleAndDesignLevel,  !- Precipitation Model Type
+ !   ,  !- Design Level for Total Annual Preciptation
+ !   Rainfall Data from User,    !- Precipitation Rates Schedule Name
+ !   ;  !- Average Total Annual Precipitation
+ 
+ ! RoofIrrigation,  
+ !   Schedule,  !- Irridation Model Type
+ !   Rainfall Data from User,    !- Precipitation Rates Schedule Name
+ !   ;  !- Irrigation Maximum Saturation Threshold (default used)
+ 
+ ! Schedule:File, 
+ !   Rainfall Data from User,  !- Name
+ !   ,                       !- Schedule Type Limits Name
+ !   CAN_ON_Ottawa-Macdonald-Cartier.Intl.AP.716280_CWEC2016.rain,    !- File Name
+ !   1,                       !- Column Number
+ !   1,                       !- Rows to Skip at Top
+ !   8760;    !- Number of Hours of Data
+ 
+ !  WMO=716280 Time Zone= GMT-5.0 Code=NAE: (GMT-05:00) Eastern Time (US & Canada)
+ !  Data Source="2017 ASHRAE Handbook -- Fundamentals - Chapter 14 Climatic Design Information"
+
+ RunPeriodControl:DaylightSavingTime,
+   2nd Sunday in March,    !- StartDate
+   1st Sunday in November;    !- EndDate
+ 
+ ! ======================= Annual Design Conditions SizingPeriod:DesignDay ======================
+ ! The following annual design conditions are reproduced from the climate data shown above.
+ ! Heating - 99%, 99.6%; Cooling - .4%, 1%, 2% for several humidity, etc conditions
+ !
+ ! Ottawa=Macdonald-Cartier Intl_ON_CAN Extreme Annual Wind Speeds, 1%=10.1m/s, 2.5%=8.9m/s, 5%=7.9m/s
+ ! Ottawa=Macdonald-Cartier Intl_ON_CAN Extreme Annual Temperatures, Max Drybulb=33.3C Min Drybulb=3.1C
+  
+ ! Ottawa=Macdonald-Cartier Intl_ON_CAN ASHRAE Climate Zone=6A
+  
+ ! Ottawa=Macdonald-Cartier Intl_ON_CAN Annual Heating Design Conditions Wind Speed=3.5m/s Wind Dir=290
+ ! Coldest Month=JAN
+ ! Ottawa=Macdonald-Cartier Intl_ON_CAN Annual Heating 99.6%, MaxDB=-24.2C
+ SizingPeriod:DesignDay,
+  Ottawa=Macdonald-Cartier Intl Ann Htg 99.6% Condns DB,     !- Name
+          1,      !- Month
+         21,      !- Day of Month
+  WinterDesignDay,!- Day Type
+      -24.2,      !- Maximum Dry-Bulb Temperature {C}
+        0.0,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+      -24.2,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     99952.,      !- Barometric Pressure {Pa}
+        3.5,      !- Wind Speed {m/s} design conditions vs. traditional 6.71 m/s (15 mph)
+        290,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+  ASHRAEClearSky, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+           ,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+           ,      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+       0.00;      !- Clearness {0.0 to 1.1}
+ 
+
+ 
+
+
+ 
+
+ ! Ottawa=Macdonald-Cartier Intl_ON_CAN Annual Cooling (DB=>MWB) 1%, MaxDB=29C MWB=20.8C
+ SizingPeriod:DesignDay,
+  Ottawa=Macdonald-Cartier Intl Ann Clg 1% Condns DB=>MWB,     !- Name
+          7,      !- Month
+         21,      !- Day of Month
+  SummerDesignDay,!- Day Type
+         29,      !- Maximum Dry-Bulb Temperature {C}
+       10.1,      !- Daily Dry-Bulb Temperature Range {C}
+ DefaultMultipliers, !- Dry-Bulb Temperature Range Modifier Type
+           ,      !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,      !- Humidity Condition Type
+       20.8,      !- Wetbulb at Maximum Dry-Bulb {C}
+           ,      !- Humidity Indicating Day Schedule Name
+           ,      !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+           ,      !- Enthalpy at Maximum Dry-Bulb {J/kg}
+           ,      !- Daily Wet-Bulb Temperature Range {deltaC}
+     99952.,      !- Barometric Pressure {Pa}
+        4.6,      !- Wind Speed {m/s} design conditions vs. traditional 3.35 m/s (7mph)
+        220,      !- Wind Direction {Degrees; N=0, S=180}
+         No,      !- Rain {Yes/No}
+         No,      !- Snow on ground {Yes/No}
+         No,      !- Daylight Savings Time Indicator
+       ASHRAETau, !- Solar Model Indicator
+           ,      !- Beam Solar Day Schedule Name
+           ,      !- Diffuse Solar Day Schedule Name
+      0.417,      !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub)
+      2.264;      !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud)
+ 
+
+ 
