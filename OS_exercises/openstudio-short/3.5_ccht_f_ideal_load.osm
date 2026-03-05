@@ -7764,3 +7764,19 @@ OS:DesignSpecification:OutdoorAir,
   ,                                       !- Outdoor Air Flow Air Changes per Hour {1/hr}
   ;                                       !- Outdoor Air Flow Rate Fraction Schedule Name
 
+OS:WeatherFile,
+  {97dcabcd-cfc3-4a6e-b033-4fad67de5ecc}, !- Handle
+  Ottawa Intl AP,                         !- City
+  ON,                                     !- State Province Region
+  CAN,                                    !- Country
+  CWEC2020,                               !- Data Source
+  716280,                                 !- WMO Number
+  45.32,                                  !- Latitude {deg}
+  -75.67,                                 !- Longitude {deg}
+  -5,                                     !- Time Zone {hr}
+  114.9,                                  !- Elevation {m}
+  CAN_ON_Ottawa.Intl.AP.716280_CWEC2020.epw, !- Url
+  0AF4A6B8,                               !- Checksum
+  ,                                       !- Start Date Actual Year
+  Sunday;                                 !- Start Day of Week
+

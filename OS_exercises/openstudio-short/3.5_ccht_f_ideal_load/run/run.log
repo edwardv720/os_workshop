@@ -1,0 +1,127 @@
+[17:49:21.568561 DEBUG] [openstudio.workflow.OSWorkflow] Removing existing run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/run
+[17:49:21.568561 DEBUG] [openstudio.workflow.OSWorkflow] Registering that the workflow has started with the adapter
+[17:49:21.568561 DEBUG] [openstudio.workflow.OSWorkflow] Initialization - selected = true
+[17:49:21.568561 DEBUG] [openstudio.workflow.OSWorkflow] The root_dir for the datapoint is C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources
+[17:49:21.568561 DEBUG] [openstudio.workflow.OSWorkflow] Creating generated files directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/generated_files
+[17:49:21.584205 INFO] [openstudio.workflow.OSWorkflow] Attempting to validate the measure workflow
+[17:49:21.584205 INFO] [openstudio.workflow.OSWorkflow] Validated the measure workflow
+[17:49:21.584205 DEBUG] [openstudio.workflow.OSWorkflow] Finding and loading the seed file
+[17:49:21.616318 INFO] [openstudio.worklow.Util] Loading OSM model
+[17:49:21.616318 INFO] [openstudio.worklow.Util] Reading in OSM model C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/3.5_ccht_f_ideal_load.osm
+[17:49:21.647618 DEBUG] [openstudio.osversion.VersionTranslator] Starting translation from Version 3.9.0.
+[17:49:21.710752 DEBUG] [openstudio.osversion.VersionTranslator] Initial model has 735 objects.
+[17:49:21.710752 DEBUG] [openstudio.osversion.VersionTranslator] Final model has 735 objects in IDF form.
+[17:49:21.726279 DEBUG] [utilities.idf.Workspace] Workspace::isValid called.
+[17:49:21.868512 DEBUG] [openstudio.osversion.VersionTranslator] Final model has 735 objects in Model form.
+[17:49:21.868512 DEBUG] [openstudio.workflow.OSWorkflow] Initialize the weather file from osw
+[17:49:21.868512 DEBUG] [openstudio.workflow.OSWorkflow] Search for weather file defined by osw CAN_ON_Ottawa.Intl.AP.716280_CWEC2020.epw
+[17:49:21.900357 DEBUG] [openstudio.EpwFile] No Daylightings Saving start Date
+[17:49:21.900357 INFO] [openstudio.EpwFile] Successive data points (2011-Jan-31 to 2001-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/files/CAN_ON_Ottawa.Intl.AP.716280_CWEC2020.epw'. Data will be treated as typical (TMY)
+[17:49:21.958217 DEBUG] [openstudio.workflow.OSWorkflow] OpenStudioMeasures - selected = true
+[17:49:21.958217 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute OpenStudio Measures
+[17:49:21.958217 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ModelMeasure
+[17:49:21.958217 INFO] [openstudio.workflow.OSWorkflow] Finished applying OpenStudio Measures.
+[17:49:22.042117 DEBUG] [openstudio.workflow.OSWorkflow] Translator - selected = true
+[17:49:22.050176 INFO] [openstudio.workflow.OSWorkflow] Beginning the translation to IDF
+[17:49:22.058602 INFO] [openstudio.energyplus.ForwardTranslator] Surface 'garage_ceiling' has a construction and 'storey_2_garage_floor' does not, using 'garage_ceiling''s construction.
+[17:49:22.058602 INFO] [openstudio.energyplus.ForwardTranslator] Surface 'storey_1_ceiling' has a construction and 'storey_2_floor' does not, using 'storey_1_ceiling''s construction.
+[17:49:22.058602 INFO] [openstudio.energyplus.ForwardTranslator] Surface 'attic_floor' has a construction and 'storey_2_ceiling' does not, using 'attic_floor''s construction.
+[17:49:22.097482 WARN] [utilities.Polyhedron] Polyhedron is not enclosed in original testing. Trying to add missing colinear points.
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] blu 5
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_ceiling
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] stone
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] partition 3
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_garage_partition 1
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] blu 2
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_garage_partition
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_ground
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] [0.895, 0, 0] is on Surface3dEdge: start=[3.237, 0, 0], end=[0.895, 0, 0], count=1, firstSurface='storey_1_ground'
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] [2.01, 0, 0] is on Surface3dEdge: start=[3.237, 0, 0], end=[2.01, 0, 0], count=1, firstSurface='storey_1_ground'
+[17:49:22.097482 WARN] [utilities.Polyhedron] Polyhedron is not enclosed.
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] Surface3dEdge: start=[0.895, 0, 0], end=[0.895, 0, 2.021], count=1, firstSurface='stone'
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] Surface3dEdge: start=[0.895, 0, 2.021], end=[2.01, 0, 2.021], count=1, firstSurface='stone'
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] Surface3dEdge: start=[2.01, 0, 2.021], end=[2.01, 0, 0], count=1, firstSurface='stone'
+[17:49:22.097482 WARN] [openstudio.model.Space] Object of type 'OS:Space' and named 'first_floor' is not enclosed, there are 3 edges that aren't used exactly twice. Falling back to ceilingHeight * floorArea. Volume calculation will be potentially inaccurate.
+[17:49:22.097482 WARN] [utilities.Polyhedron] Polyhedron is not enclosed in original testing. Trying to add missing colinear points.
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] blu 5
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_ceiling
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] stone
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] partition 3
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_garage_partition 1
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] blu 2
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_garage_partition
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] storey_1_ground
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] [0.895, 0, 0] is on Surface3dEdge: start=[3.237, 0, 0], end=[0.895, 0, 0], count=1, firstSurface='storey_1_ground'
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] [2.01, 0, 0] is on Surface3dEdge: start=[3.237, 0, 0], end=[2.01, 0, 0], count=1, firstSurface='storey_1_ground'
+[17:49:22.097482 WARN] [utilities.Polyhedron] Polyhedron is not enclosed.
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] Surface3dEdge: start=[0.895, 0, 0], end=[0.895, 0, 2.021], count=1, firstSurface='stone'
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] Surface3dEdge: start=[0.895, 0, 2.021], end=[2.01, 0, 2.021], count=1, firstSurface='stone'
+[17:49:22.097482 DEBUG] [utilities.Polyhedron] Surface3dEdge: start=[2.01, 0, 2.021], end=[2.01, 0, 0], count=1, firstSurface='stone'
+[17:49:22.097482 WARN] [openstudio.model.Space] Object of type 'OS:Space' and named 'first_floor' is not enclosed, there are 3 edges that aren't used exactly twice. Falling back to ceilingHeight * floorArea. Volume calculation will be potentially inaccurate.
+[17:49:22.106464 WARN] [utilities.Polyhedron] Polyhedron is not enclosed in original testing. Trying to add missing colinear points.
+[17:49:22.106464 DEBUG] [utilities.Polyhedron] wood
+[17:49:22.106464 DEBUG] [utilities.Polyhedron] storey_2_ceiling
+[17:49:22.106464 DEBUG] [utilities.Polyhedron] [3.237, 0, 2.55] is on Surface3dEdge: start=[0, 0, 2.55], end=[3.237, 0, 2.55], count=1, firstSurface='storey_2_ceiling'
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] blu 4
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] blu
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] partition 1
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] [6.475, 6.553, 0] is on Surface3dEdge: start=[6.475, 0, 0], end=[6.475, 6.553, 0], count=1, firstSurface='partition 1'
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] blu 1
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] storey_2_floor
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] storey_2_garage_floor
+[17:49:22.116473 WARN] [utilities.Polyhedron] Polyhedron is not enclosed in original testing. Trying to add missing colinear points.
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] wood
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] storey_2_ceiling
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] [3.237, 0, 2.55] is on Surface3dEdge: start=[0, 0, 2.55], end=[3.237, 0, 2.55], count=1, firstSurface='storey_2_ceiling'
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] blu 4
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] blu
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] partition 1
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] [6.475, 6.553, 0] is on Surface3dEdge: start=[6.475, 0, 0], end=[6.475, 6.553, 0], count=1, firstSurface='partition 1'
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] blu 1
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] storey_2_floor
+[17:49:22.116473 DEBUG] [utilities.Polyhedron] storey_2_garage_floor
+[17:49:22.122012 WARN] [openstudio.energyplus.ForwardTranslator] Object of type 'OS:ShadingControl' and named 'Shading Control 1' does not control any SubSurfaces, it will not be translated
+[17:49:22.211450 INFO] [openstudio.workflow.OSWorkflow] Successfully translated to IDF
+[17:49:22.211450 DEBUG] [openstudio.workflow.OSWorkflow] EnergyPlusMeasures - selected = true
+[17:49:22.211450 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute EnergyPlus Measures.
+[17:49:22.211450 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type EnergyPlusMeasure
+[17:49:22.211450 INFO] [openstudio.workflow.OSWorkflow] Finished applying EnergyPlus Measures.
+[17:49:22.211450 DEBUG] [openstudio.workflow.OSWorkflow] PreProcess - selected = true
+[17:49:22.250200 INFO] [openstudio.workflow.OSWorkflow] Beginning to collect output requests from Reporting measures.
+[17:49:22.250200 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ReportingMeasure
+[17:49:22.250200 INFO] [openstudio.workflow.OSWorkflow] Finished collecting output requests from Reporting measures.
+[17:49:22.250200 INFO] [openstudio.workflow.OSWorkflow] Running EnergyPlus Preprocess
+[17:49:22.259223 INFO] [openstudio.workflow.OSWorkflow] Finished preprocess job for EnergyPlus simulation
+[17:49:22.297588 DEBUG] [openstudio.workflow.OSWorkflow] Saved final IDF as C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/run/in.idf
+[17:49:22.297588 DEBUG] [openstudio.workflow.OSWorkflow] EnergyPlus - selected = true
+[17:49:22.297588 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Original Directory: C:/Users/Vuonge/Documents/Reference/OpenStudio_workshop/git/os_workshop/OS_exercises/openstudio-short
+[17:49:22.297588 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Changing To run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/run
+[17:49:22.297588 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, szPath = 'C:\openstudioapplication-1.9.0\bin\openstudiolib.dll'
+[17:49:22.297588 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.9.0/bin/openstudiolib.dll
+[17:49:22.297588 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, found 'C:/openstudioapplication-1.9.0/bin/openstudiolib.dll'
+[17:49:22.297588 DEBUG] [ApplicationPathHelpers] Searching for EnergyPlus in 'C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe'
+[17:49:22.297588 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe
+[17:49:22.297588 DEBUG] [ApplicationPathHelpers] Found EnergyPlus at 'C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe'
+[17:49:22.297588 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe
+[17:49:22.347521 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] EnergyPlus executable path is C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe
+[17:49:22.347521 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] ExpandObjects executable path is C:/openstudioapplication-1.9.0/EnergyPlus/ExpandObjects.exe
+[17:49:22.347521 INFO] [openstudio.workflow.OSWorkflow] Starting simulation in run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/run
+[17:49:22.391976 INFO] [openstudio.workflow.OSWorkflow] Running command '"C:/openstudioapplication-1.9.0\EnergyPlus\ExpandObjects.exe"'
+[17:49:22.787489 INFO] [openstudio.workflow.OSWorkflow] Running command '"C:/openstudioapplication-1.9.0\EnergyPlus\energyplus.exe" in.idf'
+[17:49:30.632789 INFO] [openstudio.workflow.OSWorkflow] EnergyPlus returned '0'
+[17:49:30.647488 INFO] [openstudio.workflow.OSWorkflow] EnergyPlus finished with 21 warnings and 0 severe errors
+[17:49:30.647488 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] Removing any copied EnergyPlus files
+[17:49:30.647488 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Changing Current Directory back to: C:/Users/Vuonge/Documents/Reference/OpenStudio_workshop/git/os_workshop/OS_exercises/openstudio-short
+[17:49:30.663333 DEBUG] [openstudio.workflow.OSWorkflow] ReportingMeasures - selected = true
+[17:49:30.663333 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute Reporting Measures.
+[17:49:30.663333 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ReportingMeasure
+[17:49:30.663333 INFO] [openstudio.workflow.OSWorkflow] Finished applying Reporting Measures.
+[17:49:30.678979 DEBUG] [openstudio.workflow.OSWorkflow] PostProcess - selected = true
+[17:49:30.678979 INFO] [openstudio.workflow.OSWorkflow] Gathering reports
+[17:49:30.678979 INFO] [openstudio.workflow.Util] Run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/run
+[17:49:30.678979 INFO] [openstudio.workflow.Util] Reports directoryC:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources
+[17:49:30.678979 INFO] [openstudio.workflow.Util] Saving EnergyPlus HTML report to C:/Users/Vuonge/AppData/Local/Temp/osmodel-efa9-21ba-0664-c013-1772750940-0/resources/reports/eplustbl.html
+[17:49:30.742306 INFO] [openstudio.workflow.OSWorkflow] Finished gathering reports
+[17:49:30.742306 DEBUG] [openstudio.workflow.OSWorkflow] Cleanup - selected = true
+[17:49:30.742306 INFO] [openstudio.workflow.OSWorkflow] Beginning cleanup of the run directory
+[17:49:30.747352 INFO] [openstudio.workflow.OSWorkflow] Finished cleanup of the run directory

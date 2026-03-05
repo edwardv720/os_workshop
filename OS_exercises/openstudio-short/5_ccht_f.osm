@@ -9360,3 +9360,19 @@ OS:Output:Table:SummaryReports,
 OS:Output:Diagnostics,
   {326c9338-f710-4946-b069-282a98b1fc39}; !- Handle
 
+OS:WeatherFile,
+  {dd0416ee-a7ca-4b1a-98c3-a82d64be3b7d}, !- Handle
+  Ottawa Intl AP,                         !- City
+  ON,                                     !- State Province Region
+  CAN,                                    !- Country
+  CWEC2020,                               !- Data Source
+  716280,                                 !- WMO Number
+  45.32,                                  !- Latitude {deg}
+  -75.67,                                 !- Longitude {deg}
+  -5,                                     !- Time Zone {hr}
+  114.9,                                  !- Elevation {m}
+  CAN_ON_Ottawa.Intl.AP.716280_CWEC2020.epw, !- Url
+  0AF4A6B8,                               !- Checksum
+  ,                                       !- Start Date Actual Year
+  Sunday;                                 !- Start Day of Week
+

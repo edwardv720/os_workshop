@@ -1,0 +1,250 @@
+==== Base does not Surround subsurface details ====
+Surface=STONE No-Overlap
+Surface#=   12 NSides=    8
+Vertex     1=(           0.00,           0.00,           3.10)
+Vertex     2=(           0.00,           0.00,           0.00)
+Vertex     3=(           0.90,           0.00,           0.00)
+Vertex     4=(           0.90,           0.00,           2.02)
+Vertex     5=(           2.01,           0.00,           2.02)
+Vertex     6=(           2.01,           0.00,           0.00)
+Vertex     7=(           3.24,           0.00,           0.00)
+Vertex     8=(           3.24,           0.00,           3.10)
+SubSurface=FRONT_DOOR
+Surface#=   17 NSides=    4
+Vertex     1=(           1.18,           0.00,           2.02)
+Vertex     2=(           1.18,           0.00,           0.00)
+Vertex     3=(           2.01,           0.00,           0.00)
+Vertex     4=(           2.01,           0.00,           2.02)
+================================
+==== Base does not Surround subsurface details ====
+Surface=STONE No-Overlap
+Surface#=   12 NSides=    8
+Vertex     1=(           0.00,           0.00,           3.10)
+Vertex     2=(           0.00,           0.00,           0.00)
+Vertex     3=(           0.90,           0.00,           0.00)
+Vertex     4=(           0.90,           0.00,           2.02)
+Vertex     5=(           2.01,           0.00,           2.02)
+Vertex     6=(           2.01,           0.00,           0.00)
+Vertex     7=(           3.24,           0.00,           0.00)
+Vertex     8=(           3.24,           0.00,           3.10)
+SubSurface=SUB SURFACE 8
+Surface#=   20 NSides=    4
+Vertex     1=(           0.90,           0.00,           2.02)
+Vertex     2=(           0.90,           0.00,           0.00)
+Vertex     3=(           1.18,           0.00,           0.00)
+Vertex     4=(           1.18,           0.00,           2.02)
+================================
+Shadowing Combinations
+..Solar Distribution=FullExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=BLU 3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARTITION is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ATTIC_FLOOR is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=OVERHANG 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLU 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLU 5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=OVERHANG 1
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=SUB SURFACE 3
+....Surface=SUB SURFACE 4
+==================================
+Surface=SUB SURFACE 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUB SURFACE 4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARTITION 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STONE is used as Receiving Surface in calculations and is non-convex.
+Number of general casting surfaces=1
+..Surface=OVERHANG
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=FRONT_DOOR
+....Surface=SUB SURFACE 8
+==================================
+Surface=FRONT_DOOR is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUB SURFACE 8 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STOREY_1_GARAGE_PARTITION is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STOREY_1_GARAGE_PARTITION 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STOREY_1_GROUND is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STOREY_1_CEILING is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GARAGE_STOREY_1_PARTITION is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GARAGE_STOREY_1_PARTITION 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARTITION 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STONE 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=OVERHANG
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=GARAGE_FLOOR
+==================================
+Surface=GARAGE_FLOOR is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GARAGE_GROUND is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GARAGE_CEILING is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLU is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=OVERHANG
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUB SURFACE 5
+==================================
+Surface=SUB SURFACE 5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLU 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLU 4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=OVERHANG 1
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=SUB SURFACE 1
+....Surface=SUB SURFACE 2
+==================================
+Surface=SUB SURFACE 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUB SURFACE 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARTITION 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WOOD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=OVERHANG
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=SUB SURFACE 6
+==================================
+Surface=SUB SURFACE 6 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STOREY_2_FLOOR is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STOREY_2_GARAGE_FLOOR is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=STOREY_2_CEILING is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0

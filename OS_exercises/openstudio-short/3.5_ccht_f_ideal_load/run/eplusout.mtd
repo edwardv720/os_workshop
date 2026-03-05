@@ -1,0 +1,526 @@
+
+ Meters for 7,LIGHTS 1:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Electricity:SpaceType:GENERAL [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:GENERAL [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:GENERAL [J]
+
+ Meters for 128,LIGHTS 3:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=Electricity:SpaceType:GENERAL [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:GENERAL [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:GENERAL [J]
+
+ Meters for 165,ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Electricity:SpaceType:GENERAL [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+
+ Meters for 238,ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Electricity:SpaceType:GENERAL [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+
+ Meters for 239,ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Electricity:SpaceType:GENERAL [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+
+ Meters for 240,ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Electricity:SpaceType:GENERAL [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:GENERAL [J]
+
+ Meters for 241,FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Fans:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Ventilation (simple):Fans:Electricity [J]
+  OnMeter=Ventilation (simple):Fans:Electricity:Zone:FIRST_FLOOR_ZONE [J]
+
+ Meters for 290,SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Fans:Electricity:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=Ventilation (simple):Fans:Electricity [J]
+  OnMeter=Ventilation (simple):Fans:Electricity:Zone:SECOND_FLOOR_ZONE [J]
+
+ Meters for 315,ATTIC_ZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATTIC_ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATTIC_ZONE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ATTIC_ZONE [J]
+
+ Meters for 400,ATTIC_ZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATTIC_ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATTIC_ZONE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ATTIC_ZONE [J]
+
+ Meters for 449,FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J]
+
+ Meters for 486,FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J]
+
+ Meters for 511,GARAGE_ZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GARAGE_ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:GARAGE_ZONE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:GARAGE_ZONE [J]
+
+ Meters for 548,GARAGE_ZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GARAGE_ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:GARAGE_ZONE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:GARAGE_ZONE [J]
+
+ Meters for 573,SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J]
+
+ Meters for 610,SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J]
+
+ Meters for 635,FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeatingWater:Facility [J]
+  OnMeter=DistrictHeatingWater:HVAC [J]
+  OnMeter=Heating:DistrictHeatingWater [J]
+  OnMeter=General:Heating:DistrictHeatingWater [J]
+
+ Meters for 684,FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 733,SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeatingWater:Facility [J]
+  OnMeter=DistrictHeatingWater:HVAC [J]
+  OnMeter=Heating:DistrictHeatingWater [J]
+  OnMeter=General:Heating:DistrictHeatingWater [J]
+
+ Meters for 734,SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 735,Whole Building:Facility Total Purchased Electricity Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 784,Whole Building:Facility Total Surplus Electricity Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 833,Whole Building:Facility Net Purchased Electricity Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 882,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 907,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 908,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  LIGHTS 3:Lights Electricity Energy
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+  FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+  SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  LIGHTS 3:Lights Electricity Energy
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+  FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+  SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:Zone:FIRST_FLOOR_ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+  FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:SpaceType:GENERAL [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  LIGHTS 3:Lights Electricity Energy
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  LIGHTS 3:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:FIRST_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LIGHTS 1:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:GENERAL [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  LIGHTS 3:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  LIGHTS 3:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:FIRST_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LIGHTS 1:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:GENERAL [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  LIGHTS 1:Lights Electricity Energy
+  LIGHTS 3:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:SECOND_FLOOR_ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  LIGHTS 3:Lights Electricity Energy
+  SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:SECOND_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LIGHTS 3:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:SECOND_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LIGHTS 3:Lights Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:GENERAL [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:FIRST_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:GENERAL [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 3:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 4:Electric Equipment Electricity Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+  SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Fans:Electricity:Zone:FIRST_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+  SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity:Zone:FIRST_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  FIRST_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Fans:Electricity:Zone:SECOND_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity:Zone:SECOND_FLOOR_ZONE [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  SECOND_FLOOR_ZONE:Zone Ventilation Fan Electricity Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Heating Energy
+  ATTIC_ZONE:Zone Air System Sensible Cooling Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+  GARAGE_ZONE:Zone Air System Sensible Heating Energy
+  GARAGE_ZONE:Zone Air System Sensible Cooling Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Heating Energy
+  ATTIC_ZONE:Zone Air System Sensible Cooling Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+  GARAGE_ZONE:Zone Air System Sensible Heating Energy
+  GARAGE_ZONE:Zone Air System Sensible Cooling Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATTIC_ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Heating Energy
+  ATTIC_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Heating Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  GARAGE_ZONE:Zone Air System Sensible Heating Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATTIC_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Heating Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  GARAGE_ZONE:Zone Air System Sensible Heating Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ATTIC_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Cooling Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+  GARAGE_ZONE:Zone Air System Sensible Cooling Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATTIC_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Cooling Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+  GARAGE_ZONE:Zone Air System Sensible Cooling Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ATTIC_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATTIC_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:FIRST_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  FIRST_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:GARAGE_ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  GARAGE_ZONE:Zone Air System Sensible Heating Energy
+  GARAGE_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:GARAGE_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GARAGE_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:GARAGE_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GARAGE_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:GARAGE_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GARAGE_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:GARAGE_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GARAGE_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:SECOND_FLOOR_ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  SECOND_FLOOR_ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=DistrictHeatingWater:Facility [J], ResourceType=DistrictHeatingWater, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeatingWater:HVAC [J], ResourceType=DistrictHeatingWater, Group=HVAC, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeatingWater [J], ResourceType=DistrictHeatingWater, EndUse=Heating, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=General:Heating:DistrictHeatingWater [J], ResourceType=DistrictHeatingWater, EndUse=Heating, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=General:Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  FIRST_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  SECOND_FLOOR_ZONE IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

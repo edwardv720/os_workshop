@@ -1,0 +1,77 @@
+[17:52:14.633655 DEBUG] [openstudio.workflow.OSWorkflow] Removing existing run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/run
+[17:52:14.633655 DEBUG] [openstudio.workflow.OSWorkflow] Registering that the workflow has started with the adapter
+[17:52:14.633655 DEBUG] [openstudio.workflow.OSWorkflow] Initialization - selected = true
+[17:52:14.633655 DEBUG] [openstudio.workflow.OSWorkflow] The root_dir for the datapoint is C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources
+[17:52:14.633655 DEBUG] [openstudio.workflow.OSWorkflow] Creating generated files directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/generated_files
+[17:52:14.651271 INFO] [openstudio.workflow.OSWorkflow] Attempting to validate the measure workflow
+[17:52:14.651271 INFO] [openstudio.workflow.OSWorkflow] Validated the measure workflow
+[17:52:14.651271 DEBUG] [openstudio.workflow.OSWorkflow] Finding and loading the seed file
+[17:52:14.697624 INFO] [openstudio.worklow.Util] Loading OSM model
+[17:52:14.697624 INFO] [openstudio.worklow.Util] Reading in OSM model C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/5_ccht_f.osm
+[17:52:14.713390 DEBUG] [openstudio.osversion.VersionTranslator] Starting translation from Version 3.9.0.
+[17:52:14.808100 DEBUG] [openstudio.osversion.VersionTranslator] Initial model has 904 objects.
+[17:52:14.808100 DEBUG] [openstudio.osversion.VersionTranslator] Final model has 904 objects in IDF form.
+[17:52:14.851891 DEBUG] [utilities.idf.Workspace] Workspace::isValid called.
+[17:52:14.966729 DEBUG] [openstudio.osversion.VersionTranslator] Final model has 904 objects in Model form.
+[17:52:14.982411 DEBUG] [openstudio.workflow.OSWorkflow] Initialize the weather file from osw
+[17:52:14.982411 DEBUG] [openstudio.workflow.OSWorkflow] Search for weather file defined by osw CAN_ON_Ottawa.Intl.AP.716280_CWEC2020.epw
+[17:52:15.008625 DEBUG] [openstudio.EpwFile] No Daylightings Saving start Date
+[17:52:15.014638 INFO] [openstudio.EpwFile] Successive data points (2011-Jan-31 to 2001-Feb-01, ending on line 753) are greater than 1 day apart in EPW file 'C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/files/CAN_ON_Ottawa.Intl.AP.716280_CWEC2020.epw'. Data will be treated as typical (TMY)
+[17:52:15.071963 DEBUG] [openstudio.workflow.OSWorkflow] OpenStudioMeasures - selected = true
+[17:52:15.071963 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute OpenStudio Measures
+[17:52:15.071963 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ModelMeasure
+[17:52:15.071963 INFO] [openstudio.workflow.OSWorkflow] Finished applying OpenStudio Measures.
+[17:52:15.157019 DEBUG] [openstudio.workflow.OSWorkflow] Translator - selected = true
+[17:52:15.172548 INFO] [openstudio.workflow.OSWorkflow] Beginning the translation to IDF
+[17:52:15.172548 INFO] [openstudio.energyplus.ForwardTranslator] Surface 'garage_ceiling' has a construction and 'storey_2_garage_floor' does not, using 'garage_ceiling''s construction.
+[17:52:15.172548 INFO] [openstudio.energyplus.ForwardTranslator] Surface 'storey_1_ceiling' has a construction and 'storey_2_floor' does not, using 'storey_1_ceiling''s construction.
+[17:52:15.172548 INFO] [openstudio.energyplus.ForwardTranslator] Surface 'attic_floor' has a construction and 'storey_2_ceiling' does not, using 'attic_floor''s construction.
+[17:52:15.235805 DEBUG] [openstudio.model.SimulationControl] You have zonal equipment and design days, and SimulationControl::DoZoneSizingCalculation is defaulted: turning on.
+[17:52:15.235805 DEBUG] [openstudio.model.SimulationControl] You have AirLoopHVAC(s) and design day(s), and SimulationControl::DoSystemSizingCalculation is defaulted: assuming on.
+[17:52:15.235805 DEBUG] [openstudio.model.SimulationControl] You have PlantLoop(s) and design days, and SimulationControl::DoPlantSizingCalculation is defaulted: assuming on.
+[17:52:15.252851 WARN] [openstudio.energyplus.ForwardTranslator] Object of type 'OS:ShadingControl' and named 'Shading Control 1' does not control any SubSurfaces, it will not be translated
+[17:52:15.363002 WARN] [openstudio.energyplus.ForwardTranslator] OS_ProgramControl is not currently translated
+[17:52:15.425984 INFO] [openstudio.workflow.OSWorkflow] Successfully translated to IDF
+[17:52:15.425984 DEBUG] [openstudio.workflow.OSWorkflow] EnergyPlusMeasures - selected = true
+[17:52:15.425984 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute EnergyPlus Measures.
+[17:52:15.425984 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type EnergyPlusMeasure
+[17:52:15.425984 INFO] [openstudio.workflow.OSWorkflow] Finished applying EnergyPlus Measures.
+[17:52:15.425984 DEBUG] [openstudio.workflow.OSWorkflow] PreProcess - selected = true
+[17:52:15.473512 INFO] [openstudio.workflow.OSWorkflow] Beginning to collect output requests from Reporting measures.
+[17:52:15.473512 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ReportingMeasure
+[17:52:15.473512 INFO] [openstudio.workflow.OSWorkflow] Finished collecting output requests from Reporting measures.
+[17:52:15.473512 INFO] [openstudio.workflow.OSWorkflow] Running EnergyPlus Preprocess
+[17:52:15.473512 INFO] [openstudio.workflow.OSWorkflow] Finished preprocess job for EnergyPlus simulation
+[17:52:15.536619 DEBUG] [openstudio.workflow.OSWorkflow] Saved final IDF as C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/run/in.idf
+[17:52:15.536619 DEBUG] [openstudio.workflow.OSWorkflow] EnergyPlus - selected = true
+[17:52:15.547631 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Original Directory: C:/Users/Vuonge/Documents/Reference/OpenStudio_workshop/git/os_workshop/OS_exercises/openstudio-short
+[17:52:15.547631 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Changing To run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/run
+[17:52:15.547631 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, szPath = 'C:\openstudioapplication-1.9.0\bin\openstudiolib.dll'
+[17:52:15.547631 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.9.0/bin/openstudiolib.dll
+[17:52:15.547631 DEBUG] [ApplicationPathHelpers] getOpenStudioModule, found 'C:/openstudioapplication-1.9.0/bin/openstudiolib.dll'
+[17:52:15.547631 DEBUG] [ApplicationPathHelpers] Searching for EnergyPlus in 'C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe'
+[17:52:15.553166 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe
+[17:52:15.553166 DEBUG] [ApplicationPathHelpers] Found EnergyPlus at 'C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe'
+[17:52:15.553166 DEBUG] [PathHelpers] completeAndNormalize: result = C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe
+[17:52:15.584377 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] EnergyPlus executable path is C:/openstudioapplication-1.9.0/EnergyPlus/energyplus.exe
+[17:52:15.584377 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] ExpandObjects executable path is C:/openstudioapplication-1.9.0/EnergyPlus/ExpandObjects.exe
+[17:52:15.584377 INFO] [openstudio.workflow.OSWorkflow] Starting simulation in run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/run
+[17:52:15.631800 INFO] [openstudio.workflow.OSWorkflow] Running command '"C:/openstudioapplication-1.9.0\EnergyPlus\ExpandObjects.exe"'
+[17:52:15.884679 INFO] [openstudio.workflow.OSWorkflow] Running command '"C:/openstudioapplication-1.9.0\EnergyPlus\energyplus.exe" in.idf'
+[17:52:29.839901 INFO] [openstudio.workflow.OSWorkflow] EnergyPlus returned '0'
+[17:52:29.847419 INFO] [openstudio.workflow.OSWorkflow] EnergyPlus finished with 56551 warnings and 0 severe errors
+[17:52:29.847419 INFO] [openstudio.OSWorkflow.prepareEnergyPlusDir] Removing any copied EnergyPlus files
+[17:52:29.856288 DEBUG] [openstudio.OSWorkflow.prepareEnergyPlusDir] Changing Current Directory back to: C:/Users/Vuonge/Documents/Reference/OpenStudio_workshop/git/os_workshop/OS_exercises/openstudio-short
+[17:52:29.887565 DEBUG] [openstudio.workflow.OSWorkflow] ReportingMeasures - selected = true
+[17:52:29.887565 INFO] [openstudio.workflow.OSWorkflow] Beginning to execute Reporting Measures.
+[17:52:29.887565 DEBUG] [openstudio.workflow.OSWorkflow] Finding measures of type ReportingMeasure
+[17:52:29.887565 INFO] [openstudio.workflow.OSWorkflow] Finished applying Reporting Measures.
+[17:52:29.904350 DEBUG] [openstudio.workflow.OSWorkflow] PostProcess - selected = true
+[17:52:29.904350 INFO] [openstudio.workflow.OSWorkflow] Gathering reports
+[17:52:29.904350 INFO] [openstudio.workflow.Util] Run directory: C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/run
+[17:52:29.914372 INFO] [openstudio.workflow.Util] Reports directoryC:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources
+[17:52:29.919386 INFO] [openstudio.workflow.Util] Saving EnergyPlus HTML report to C:/Users/Vuonge/AppData/Local/Temp/osmodel-e7c4-4163-8a55-301c-1772751125-0/resources/reports/eplustbl.html
+[17:52:29.983292 INFO] [openstudio.workflow.OSWorkflow] Finished gathering reports
+[17:52:29.983292 DEBUG] [openstudio.workflow.OSWorkflow] Cleanup - selected = true
+[17:52:29.983292 INFO] [openstudio.workflow.OSWorkflow] Beginning cleanup of the run directory
+[17:52:29.999732 INFO] [openstudio.workflow.OSWorkflow] Finished cleanup of the run directory

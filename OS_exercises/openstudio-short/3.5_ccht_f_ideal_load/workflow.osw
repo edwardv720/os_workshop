@@ -1,0 +1,7 @@
+{
+   "created_at" : "20260305T224900Z",
+   "seed_file" : "../3.5_ccht_f_ideal_load.osm",
+   "steps" : [],
+   "updated_at" : "20260305T224921Z",
+   "weather_file" : "CAN_ON_Ottawa.Intl.AP.716280_CWEC2020.epw"
+}
