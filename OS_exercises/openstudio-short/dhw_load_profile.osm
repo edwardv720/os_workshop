@@ -1,15 +1,16 @@
+
 OS:Version,
-  {ec9c8fff-6bee-4876-aea5-2f37082bd5b7}, !- Handle
-  3.6.1;                                  !- Version Identifier
-  
+  {ed035634-8ae9-4a34-a8bb-b8a1533c3d52}, !- Handle
+  3.9.0;                                  !- Version Identifier
+
 OS:ScheduleTypeLimits,
   {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Handle
-  Fractional_dhw,                             !- Name
+  Fractional_dhw,                         !- Name
   0,                                      !- Lower Limit Value
   1,                                      !- Upper Limit Value
   Continuous;                             !- Numeric Type
 
-  OS:Schedule:Ruleset,
+OS:Schedule:Ruleset,
   {ae289199-a383-4274-8323-639233600652}, !- Handle
   dhw_load_profile,                       !- Name
   {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
@@ -19,7 +20,7 @@ OS:Schedule:Day,
   {74834dd4-691d-476d-8e50-fbea2e7108b1}, !- Handle
   Schedule Day 16,                        !- Name
   {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
+  No,                                     !- Interpolate to Timestep
   6,                                      !- Hour 1
   50,                                     !- Minute 1
   0,                                      !- Value Until Time 1
@@ -104,4 +105,98 @@ OS:Schedule:Day,
   24,                                     !- Hour 28
   0,                                      !- Minute 28
   0;                                      !- Value Until Time 28
+
+OS:Site,
+  {cc6deb99-481c-4e5f-b601-12423928b978}, !- Handle
+  Site 1,                                 !- Name
+  ,                                       !- Latitude {deg}
+  ,                                       !- Longitude {deg}
+  ,                                       !- Time Zone {hr}
+  ,                                       !- Elevation {m}
+  ;                                       !- Terrain
+
+OS:YearDescription,
+  {d012f50d-647c-4312-9ebc-4a2f256ecc2d}; !- Handle
+
+OS:ClimateZones,
+  {09d5ed16-aba6-412f-bfd1-cb11adf8d622}, !- Handle
+  ASHRAE,                                 !- Climate Zone Institution Name 1
+  ANSI/ASHRAE Standard 169,               !- Climate Zone Document Name 1
+  2006,                                   !- Climate Zone Document Year 1
+  ,                                       !- Climate Zone Value 1
+  CEC,                                    !- Climate Zone Institution Name 2
+  California Climate Zone Descriptions,   !- Climate Zone Document Name 2
+  1995,                                   !- Climate Zone Document Year 2
+  ;                                       !- Climate Zone Value 2
+
+OS:Building,
+  {3e21f5db-512b-44ce-8395-713201b682ec}, !- Handle
+  Building 1,                             !- Name
+  ,                                       !- Building Sector Type
+  ,                                       !- North Axis {deg}
+  ,                                       !- Nominal Floor to Floor Height {m}
+  ,                                       !- Space Type Name
+  ,                                       !- Default Construction Set Name
+  ;                                       !- Default Schedule Set Name
+
+OS:Facility,
+  {297ce9a2-c1ce-4dbb-aaf9-e2479a4b2e3d}; !- Handle
+
+OS:SimulationControl,
+  {3539d20a-5c59-46cf-9ec7-c1271da557b6}; !- Handle
+
+OS:Sizing:Parameters,
+  {5ae997dd-9ad2-43e2-8a80-876d67c2146f}, !- Handle
+  1.25,                                   !- Heating Sizing Factor
+  1.15;                                   !- Cooling Sizing Factor
+
+OS:Timestep,
+  {28083eff-85a3-44ee-8540-c37cd0b9a7b5}, !- Handle
+  6;                                      !- Number of Timesteps per Hour
+
+OS:ShadowCalculation,
+  {796601e2-1408-4eed-bbe9-123306bd568f}, !- Handle
+  PolygonClipping,                        !- Shading Calculation Method
+  ,                                       !- Shading Calculation Update Frequency Method
+  20,                                     !- Shading Calculation Update Frequency
+  15000,                                  !- Maximum Figures in Shadow Overlap Calculations
+  ,                                       !- Polygon Clipping Algorithm
+  512,                                    !- Pixel Counting Resolution
+  ,                                       !- Sky Diffuse Modeling Algorithm
+  No,                                     !- Output External Shading Calculation Results
+  No,                                     !- Disable Self-Shading Within Shading Zone Groups
+  No;                                     !- Disable Self-Shading From Shading Zone Groups to Other Zones
+
+OS:HeatBalanceAlgorithm,
+  {8218b997-71a6-4e27-8690-31479fabd28a}, !- Handle
+  ConductionTransferFunction,             !- Algorithm
+  200;                                    !- Surface Temperature Upper Limit {C}
+
+OS:RunPeriod,
+  {0e89e633-45d1-48e8-86ef-449651f69b58}, !- Handle
+  Run Period 1,                           !- Name
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
+  ,                                       !- Use Weather File Holidays and Special Days
+  ,                                       !- Use Weather File Daylight Saving Period
+  ,                                       !- Apply Weekend Holiday Rule
+  ,                                       !- Use Weather File Rain Indicators
+  ,                                       !- Use Weather File Snow Indicators
+  ;                                       !- Number of Times Runperiod to be Repeated
+
+OS:LifeCycleCost:Parameters,
+  {ebc3fbdd-3474-4329-b6ce-f474afa70ede}, !- Handle
+  ,                                       !- Analysis Type
+  ,                                       !- Discounting Convention
+  ,                                       !- Inflation Approach
+  ,                                       !- Real Discount Rate
+  ,                                       !- Nominal Discount Rate
+  ,                                       !- Inflation
+  ,                                       !- Base Date Month
+  ,                                       !- Base Date Year
+  ,                                       !- Service Date Month
+  ,                                       !- Service Date Year
+  ;                                       !- Length of Study Period in Years
 
